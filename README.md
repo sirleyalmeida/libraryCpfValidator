@@ -7,7 +7,9 @@ $  npm install cpfValidator
 ## Como utilizar:
 
 > const writtenCpf = require("cpfValidator");
+
 > console.log(writtenCpf('12345678909'))
+
 > // returns 'true'
 
 
