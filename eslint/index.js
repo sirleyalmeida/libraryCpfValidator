@@ -48,7 +48,5 @@ function cpfValidator(strCpf) {
   }
   return false;
 }
-// module.exports.cpfValidatorConditions = cpfValidatorConditions;
-module.exports.cpfValidator = cpfValidator;
 
-console.log(cpfValidator('12345678909'))
+module.exports.cpfValidator = cpfValidator;
