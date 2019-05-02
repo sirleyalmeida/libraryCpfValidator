@@ -1,16 +1,22 @@
 {
-  "name": "eslint-library",
+  "name": "librarycpfvalidator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Biblioteca para validação de cpf",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha"
   },
-  "author": "",
+  "author": "Sirley Almeida",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirleyalmeida/libraryCpfValidator"
+  },
+  "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
   }
 }

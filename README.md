@@ -12,7 +12,7 @@ $  npm install libraryCpfValidator
 
 ## roadmap oficial do projeto*
 
-### Versão 2.0.0
+### Versão 3.0.0
 
 * README translated to english.
 
@@ -22,4 +22,5 @@ $  npm install libraryCpfValidator
 
 ### Versão 1.0.0
 
-* Funcionalidades: validação de cpf.
+* Funcionalidades: validação de cpf;
+* Entrada de string e números.
