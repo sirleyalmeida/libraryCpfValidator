@@ -4,13 +4,13 @@ Esta biblioteca destina-se à validação de números de CPF.
 ## Como instalar:
 
 ```
-$  npm install libraryCpfValidator
+$  npm install librarycpfvalidator
 ```
 
 ## Como utilizar:
 
-```
-> const cpfValidator = require('libraryCpfValidator');
+```javascript
+> const cpfValidator = require('librarycpfvalidator');
 > console.log(cpfValidator('12345678909'));
 > // returns 'true'
 ```

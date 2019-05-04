@@ -19,17 +19,11 @@ const checkerIsTrueOrFalse = (cpf) => {
   let lastChecker = calculateChecker(cpf, 11);
   lastChecker = digitChecker(lastChecker);
 
-  if (firstChecker !== parseInt(numbersCpf(cpf)[9]) || lastChecker !== parseInt(numbersCpf(cpf)[10])) {
-    return false;
-  }
-  return true;
+  return (firstChecker !== parseInt(numbersCpf(cpf)[9]) || lastChecker !== parseInt(numbersCpf(cpf)[10])) ? false : true;
 };
 
-function cpfValidator (cpf) {
-  if (isRepeatingNumbers(cpf)) {
-    return false;
-  }
-  return checkerIsTrueOrFalse(cpf);
+function cpfValidator(cpf) {
+  return (isRepeatingNumbers(cpf)) ? false : checkerIsTrueOrFalse(cpf);
 }
 
 module.exports = cpfValidator;

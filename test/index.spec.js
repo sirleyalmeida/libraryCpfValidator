@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 const chai = require('chai');
 const expect = chai.expect;
 const cpfValidatorTest = require('../index');
