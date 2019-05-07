@@ -3,8 +3,8 @@ const isRepeatingNumbers = (cpf) => treatingStrCpf(cpf).split('').every((elem) =
 const numbersCpf = (cpf) => Array.from(treatingStrCpf(cpf));
 
 const calculateChecker = (cpf, multiply) => {
-  let multiCalc = numbersCpf(cpf).slice(0, (multiply - 1)).map(number => number * (multiply--));
-  let restCalc = multiCalc.reduce((a, b) => (a + b)) * 10 % 11;
+  const multiCalc = numbersCpf(cpf).slice(0, (multiply - 1)).map(number => number * (multiply--));
+  const restCalc = multiCalc.reduce((a, b) => (a + b)) * 10 % 11;
   return restCalc;
 };
 

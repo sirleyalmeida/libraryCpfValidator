@@ -10,9 +10,13 @@ $  npm install librarycpfvalidator
 ## Como utilizar:
 
 ```javascript
-> const cpfValidator = require('librarycpfvalidator');
-> console.log(cpfValidator('12345678909'));
-> // returns 'true'
+const cpfValidator = require('librarycpfvalidator');
+cpfValidator('12345678909');
+// returns 'true'
+
+const cpfValidator = require('librarycpfvalidator');
+cpfValidator('11111111111');
+// returns 'false'
 ```
 
 ## roadmap oficial do projeto*

@@ -33,6 +33,10 @@ module.exports = {
 			'error',
 			'never'
 		],
+		'space-before-function-paren': [
+			'error',
+			'never'
+		],
 		'camelcase': 2,
 		'keyword-spacing': 2,
 		'space-infix-ops': 2,
@@ -42,7 +46,6 @@ module.exports = {
 		'key-spacing': 2,
 		'no-multi-spaces': 2,
 		'space-in-parens': 2,
-		'space-before-function-paren': 2,
 		'func-call-spacing': 2,
 		'no-multiple-empty-lines': 2,
 		'no-floating-decimal': 2,
